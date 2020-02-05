@@ -1,0 +1,18 @@
+Algorithm to convert infix to postfix:
+
+1) Read the expression
+2) Create a stack to store operators
+3) Process the expression from left to right (Using a loop)
+* the following steps _ through _ are part of the loop
+	4) If the processed character is an operand output it
+	5) Else
+		{
+			5) If (stack is empty) or (operator == "(") or (precedence of operator in top of stack < precedence of scanned operator) or (top of stack == '(') 
+				=>Push the operator to the stack
+			6) if(operator ==")")
+				=> Pop all operators from stack * till ( is encountered * (important)
+			7) if(precedence of top of stack > precedence of current operator)
+				=> Pop all operator till precedence of top >= precedence of current operator
+				=> Then push operator to stack
+		}
+6) If any operator remains in the stack after all character has been read, pop the stack till its empty
