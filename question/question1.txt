@@ -1,0 +1,34 @@
+1) Implement stacks without using functions
+2) Implement stacks using functions
+3) Reverse the elements of a stack
+4) Create function which returns the 3rd element of the stack (use only push and pop operation) (you can assume that number of elements >3)
+	For example : if stack was (top) 1->2->3->4->5->6
+			Output will be 3
+	*Try the same question but return the sum of the final 3 elements (i.e. bottom 3 elements)
+	For example: if Stack was (top) 1->2->3->4->5->6
+			Output will be 4+5+6 = 15
+5) *** (Hard)
+	Take an array as input
+	Use only push and pop operation
+	In reverse order, first print odd index elements
+	Then, In reverse order, print even index elements
+
+	For example: array = [1,2,3,4,5]
+	Output should be 5 3 1 4 2
+	
+	Hint: Try using 2 stacks
+6) Implement queue without functions
+7) Implement queue using functions
+8) Implement circular queue
+9) Without using concepts of circular queue, try to avoid the drawback of a normal queue
+* Drawback = If we use normal queue, after dequeuing element, that memory space is useless
+10) *** (Hard)
+	Check if a string is a palindrome using only stacks and queues and its operations
+	
+Palindrome is a string which is same when read from left to right or right to left
+Example: madam : from left and right is the same but apple is not a palindrome
+
+Hint: Remember stack is FIFO and queue is LIFO	
+11) Create a function which will return the 3rd element from rear (back) of a queue
+For example: If queue was 1->2->3->4->5->6
+	Output will be => 4
