@@ -32,3 +32,7 @@ Hint: Remember stack is LIFO and queue is FIFO
 11) Create a function which will return the 3rd element from rear (back) of a queue
 For example: If queue was 1->2->3->4->5->6
 	Output will be => 4
+
+Please create zip file with name being your register number, inside the zip each question should have a different file, name should be the question number.
+
+Upload at: https://drive.google.com/drive/folders/1oYydhrBaA6ll6UMYKd4JNwP0aSUNDeLj?usp=sharing
