@@ -28,7 +28,7 @@
 Palindrome is a string which is same when read from left to right or right to left
 Example: madam : from left and right is the same but apple is not a palindrome
 
-Hint: Remember stack is FIFO and queue is LIFO	
+Hint: Remember stack is LIFO and queue is FIFO	
 11) Create a function which will return the 3rd element from rear (back) of a queue
 For example: If queue was 1->2->3->4->5->6
 	Output will be => 4
