@@ -1,0 +1,35 @@
+1) Creating a new LL
+2) Inserting at the end of LL
+3) Inserting at the head of LL
+4) Inserting at any position
+5) Printing elements of a LL
+6) Find the middle element of the LL
+5) Deleting a node
+
+Questions to be done (28/02/2020)
+
+1) Ramu wants to create a linked list to store the powers of 2
+	i.e. 1->2->4->8->16 but, while creating the linked list Ramu mistakenly created
+	the linked list as 1->2->8->16, i.e. he forgot to insert 4.
+	Help Ramu rectify his mistake by adding 4 after 2
+	*Remember you can't create new linked list, i.e. insert 4 after 2
+	
+	(Insert a node after a given node)
+	
+	
+2) Repeat the same problem but with a different idea
+	(Insert a node before a given idea, insert 4 before 8)
+	
+
+* Remember for both the questions, you will be given a linked list and the element to insert
+Along with the element before or after which you have to insert
+
+3) Given a linked list 1->2->3->4->5 and an element "4" , find the next and previous element
+Make sure to make your program run for any linked list.
+
+
+
+************
+
+6) Linked List representation of stack
+7) Linked List representation of queue
